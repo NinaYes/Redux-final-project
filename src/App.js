@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import logo from './Logo.png';
+import logo from './Assets/Logo.png';
 import Footer from "./components/Footer/Footer.js";
 
 
@@ -11,10 +11,10 @@ import {
   Link
 } from "react-router-dom";
 
-import Gallery from './Gallery';
-import Contact from './Contact';
-import Main from './Main.js';
-import Shop from './Shop.js'
+import Gallery from './Pages/Gallery.js';
+import Contact from './components/Contact.js';
+import Main from './Pages/Main.js';
+import Shop from './Pages/Shop.js'
 
 function App() {
   return (

@@ -14,7 +14,7 @@ const ArtItems = () => {
             }
             )
 
-            .map(art => <Art art={art}/>)}
+            .map((art, index) => <Art key={index} art={art}/>)}
         </div>
     )
 }

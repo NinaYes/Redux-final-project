@@ -1,7 +1,7 @@
-import './App.css'
-import ArtItems from './components/ArtComponents/ArtItems';
-import AllCategories from './components/Filter/AllCategories';
-import Cart from './components/Cart/Cart';
+import '../App.css'
+import ArtItems from '../components/ArtComponents/ArtItems';
+import AllCategories from '../components/Filter/AllCategories';
+import Cart from '../components/Cart/Cart';
 
 
 function Shop() {

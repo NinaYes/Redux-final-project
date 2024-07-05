@@ -8,10 +8,10 @@ const Cart = () => {
     const totalPrice = useSelector(getTotalPrice);
 
     return (
-        <div className="blockThree">
+        <div>
             <img className="cartIcon" src={cartTwo} alt="shopping cart" /> 
             <h3 className="price">TOTAL: ${totalPrice} </h3>
-            {cartItems.map( cartItem => <CartItem cartItem={cartItem} />)}   
+            {cartItems.map((cartItem, index) => <CartItem key={index} cartItem={cartItem} />)}   
         </div>
     )
 }

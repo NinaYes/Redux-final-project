@@ -6,7 +6,7 @@ const AllCategories = () => {
             <h1 className="headerShop">What art do you like?</h1>
 
             {['PRINT', 'SCULPTURE', 'PAINTING', 'PHOTO' , 'ALL']
-            .map(category => <Filter category={category}/>
+            .map((category, index) => <Filter key={index} category={category}/>
             )}
             
         </div>

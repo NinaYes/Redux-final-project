@@ -1,5 +1,5 @@
-import image from './Space.avif';
-import imageTwo from './SpaceTwo.avif';
+import image from '../Assets/Space.avif';
+import imageTwo from '../Assets/SpaceTwo.avif';
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 

@@ -9,7 +9,7 @@ const Art = ({art}) => {
     const dispatch = useDispatch()
 
     return (
-        <div class="blockFour">
+        <div class="blockTwo">
             <img src={`./${art.img}.avif`} alt="art"/>
             <h2>{art.name}</h2>
             <p>${art.price}</p>
